@@ -16,4 +16,5 @@
 PRODUCT_PACKAGES += \
     GalleryGoPrebuilt \
     MetroMusicPlayer \
+    WeatherIcons \
     ViaBrowser
