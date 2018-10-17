@@ -33,6 +33,9 @@ include vendor/xtras/QS/qsstyle.mk
 # Include Xtended Switch Styles
 include vendor/xtras/Switch/switch.mk
 
+# Include Xtended Qs Tile Styles
+include vendor/xtras/QsThemes/qstheme.mk
+
 # Xtended packages
 PRODUCT_PACKAGES += \
     VinylMusicPlayer \
