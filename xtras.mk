@@ -27,6 +27,9 @@ include vendor/xtras/themes/themes.mk
 # Include Xtended font files
 include vendor/xtras/fonts/fonts.mk
 
+# Include Xtended QS Style files
+include vendor/xtras/QS/qsstyle.mk
+
 # Xtended packages
 PRODUCT_PACKAGES += \
     VinylMusicPlayer \
