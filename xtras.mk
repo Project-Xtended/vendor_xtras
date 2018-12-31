@@ -28,6 +28,9 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xtras/fonts,$(TARGE
 # Includes accents
 include vendor/xtras/accents/accents.mk
 
+# Includes cutout shapes
+include vendor/xtras/cutout/cutout.mk
+
 # Includes icon packs/shapes
 include vendor/xtras/icons/icons.mk
 
