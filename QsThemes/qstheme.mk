@@ -12,6 +12,6 @@ PRODUCT_PACKAGES += \
     QStileCookie \
     QStileInkDrop \
     QStileSquaremedo \
-    QStilesCircleOutline
-
-
+    QStilesCircleOutline \
+    QSTileNeonLight \
+    QSTileTriangles
