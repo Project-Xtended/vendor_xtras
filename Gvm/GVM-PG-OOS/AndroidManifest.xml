@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-	package="com.gnonymous.gvisualmod.pg_ios"
+	package="com.gnonymous.gvisualmod.pg_oos"
 	android:versionCode="1"
 	android:versionName="1.0">
     <overlay
@@ -8,6 +8,6 @@
 		android:targetPackage="android"
 		android:category="android.theme.customization.pill_gesture"/>
 	<application
-		android:label="PillGesture-IOS"
+		android:label="PillGesture-OOS"
 		android:hasCode="false"/>
 </manifest>

@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.gnonymous.gvisualmod.rui3" platformBuildVersionCode="28" platformBuildVersionName="9" android:compileSdkVersion="28" android:compileSdkVersionCodename="9">
-    <overlay android:priority="20" android:targetPackage="com.android.systemui" android:isStatic="true"/>
-</manifest>
