@@ -3,6 +3,4 @@
     <dimen name="navigation_home_handle_width">160dp</dimen>
     <dimen name="navigation_handle_radius">3dp</dimen>
     <dimen name="navigation_handle_bottom">9dp</dimen>
-	<dimen name="navigation_bar_height">24dp</dimen>
-	<dimen name="navigation_bar_height_landscape">24dp</dimen>
 </resources>
