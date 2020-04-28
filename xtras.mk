@@ -45,3 +45,6 @@ include vendor/xtras/prebuilts/prebuilts.mk
 
 # Includes qsthemes
 include vendor/xtras/qsthemes/qsthemes.mk
+
+# Includes themes
+include vendor/xtras/themes/themes.mk
