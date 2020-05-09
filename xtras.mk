@@ -34,7 +34,6 @@ PRODUCT_PACKAGES += \
     GBoardPrebuilt \
     SafetyHubPrebuilt \
     SettingsIntelligenceGooglePrebuilt \
-    OPScreenRecorder \
     Longshot \
     Lawnchair \
     PixelThemesStub2019
