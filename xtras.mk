@@ -30,12 +30,11 @@ include vendor/xtras/fonts/fonts.mk
 # Xtended packages
 PRODUCT_PACKAGES += \
     VinylMusicPlayer \
-    GalleryGoPrebuilt \
+    GalleryPrebuilt \
     GBoardPrebuilt \
     SafetyHubPrebuilt \
     SettingsIntelligenceGooglePrebuilt \
     Longshot \
-    Lawnchair \
-    PixelThemesStub2019
+    ViaBrowser
 
 #End
