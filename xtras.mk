@@ -52,6 +52,9 @@ include vendor/xtras/qsthemes/qsthemes.mk
 # Includes themes
 include vendor/xtras/themes/themes.mk
 
+# Include Xtended Switch Styles
+include vendor/xtras/Switch/switch.mk
+
 ifeq ($(EXTRA_FOD_ANIMATIONS),true)
 PRODUCT_PACKAGES += \
     FodAnimationResources
