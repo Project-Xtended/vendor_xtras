@@ -30,6 +30,9 @@ include vendor/xtras/fonts/fonts.mk
 # Include Xtended QS Style files
 include vendor/xtras/QS/qsstyle.mk
 
+# Include Xtended Switch Styles
+include vendor/xtras/Switch/switch.mk
+
 # Xtended packages
 PRODUCT_PACKAGES += \
     VinylMusicPlayer \
