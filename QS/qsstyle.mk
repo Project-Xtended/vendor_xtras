@@ -4,4 +4,5 @@ PRODUCT_PACKAGES += \
     QSHeaderGrey \
     QSHeaderLightGrey \
     QSHeaderAccent \
+    QSHeaderGradient \
     QSHeaderTransparent
