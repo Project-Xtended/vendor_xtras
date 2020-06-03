@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="control_corner_material">10dp</dimen>
+    <dimen name="dialog_corner_radius">10dp</dimen>
+    <dimen name="config_buttonCornerRadius">10dp</dimen>
+    <dimen name="config_dialogCornerRadius">10dp</dimen>
+    <dimen name="tooltip_corner_radius">10dp</dimen>
+    <dimen name="corner_size">10dp</dimen>
+</resources>
