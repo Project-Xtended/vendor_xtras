@@ -15,16 +15,16 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="fod_recog_animation_miui_normal">Normal MIUI</string>
+    <string name="fod_recog_animation_miui_normal">MIUI Normal</string>
     <string name="fod_recog_animation_miui_aod">MIUI AOD</string>
-    <string name="fod_recog_animation_miui_light">MIUI - Claro</string>
-    <string name="fod_recog_animation_miui_pop">Pop MIUI</string>
-    <string name="fod_recog_animation_miui_pulse">Pulso MIUI</string>
-    <string name="fod_recog_animation_miui_pulse_white">Pulso MIUI (Blanco)</string>
-    <string name="fod_recog_animation_miui_rhythm">Ritmo MIUI</string>
+    <string name="fod_recog_animation_miui_light">MIUI Light</string>
+    <string name="fod_recog_animation_miui_pop">MIUI Pop</string>
+    <string name="fod_recog_animation_miui_pulse">MIUI Pulse</string>
+    <string name="fod_recog_animation_miui_pulse_white">MIUI Pulse (Vit)</string>
+    <string name="fod_recog_animation_miui_rhythm">MIUI Rhythm</string>
     <string name="fod_recog_animation_op_cosmos">OnePlus Cosmos</string>
     <string name="fod_recog_animation_op_mclaren">OnePlus McLaren</string>
-    <string name="fod_recog_animation_op_stripe">OnePlus Three</string>
+    <string name="fod_recog_animation_op_stripe">OnePlus Stripe</string>
     <string name="fod_recog_animation_op_wave">OnePlus Wave</string>
     <string name="fod_recog_animation_pureview_dna">PureView DNA</string>
     <string name="fod_recog_animation_pureview_future">PureView Future</string>
