@@ -15,7 +15,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="fod_recog_animation_miui_normal">Нормальный MIUI</string>
+    <string name="fod_recog_animation_miui_normal">MIUI Обычный</string>
     <string name="fod_recog_animation_miui_aod">MIUI AOD</string>
     <string name="fod_recog_animation_miui_light">MIUI Светлый</string>
     <string name="fod_recog_animation_miui_pop">MIUI Pop</string>
