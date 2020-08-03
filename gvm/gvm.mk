@@ -12,27 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_PATH := $(call my-dir)
-
-include $(call all-subdir-makefiles,$(LOCAL_PATH))
-
-# Copy fonts to system
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xtras/fonts,$(TARGET_COPY_OUT_SYSTEM)/fonts)
-
-# Includes accents
-include vendor/xtras/accents/accents.mk
-
-# Includes icon packs/shapes
-include vendor/xtras/icons/icons.mk
-
-# Includes fonts
-include vendor/xtras/fonts/fonts.mk
-
-# Includes gvm
-include vendor/xtras/gvm/gvm.mk
-
-# Includes prebuilts
-include vendor/xtras/prebuilts/prebuilts.mk
-
-# Includes qsthemes
-include vendor/xtras/qsthemes/qsthemes.mk
+# GVM
+PRODUCT_PACKAGES += \
+    GVM-SBH-L \
+    GVM-SBH-M \
+    GVM-SBH-XL \
+    GVM-URM-M \
+    GVM-URM-L \
+    GVM-URM-R
