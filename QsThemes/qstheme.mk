@@ -14,4 +14,5 @@ PRODUCT_PACKAGES += \
     QStileSquaremedo \
     QStilesCircleOutline \
     QSTileNeonLight \
+    QSTileOxygen \
     QSTileTriangles
