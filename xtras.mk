@@ -28,27 +28,27 @@ include vendor/xtras/themes/themes.mk
 include vendor/xtras/fonts/fonts.mk
 
 # Include Xtended QS Style files
-include vendor/xtras/QS/qsstyle.mk
+#include vendor/xtras/QS/qsstyle.mk
 
 # Include Xtended Switch Styles
-include vendor/xtras/Switch/switch.mk
+#include vendor/xtras/Switch/switch.mk
 
 # Include Xtended Qs Tile Styles
-include vendor/xtras/QsThemes/qstheme.mk
+#include vendor/xtras/QsThemes/qstheme.mk
 
 # Include Gvm Styles
-include vendor/xtras/Gvm/gvm.mk
+#include vendor/xtras/Gvm/gvm.mk
 
 # Include Brightness Slider Styles
-include vendor/xtras/BrightnessSlider/slider.mk
+#include vendor/xtras/BrightnessSlider/slider.mk
 
 # Xtended packages
 PRODUCT_PACKAGES += \
     VinylMusicPlayer \
     GalleryPrebuilt \
-    GBoardPrebuilt \
-    SafetyHubPrebuilt \
-    SettingsIntelligenceGooglePrebuilt \
+#    GBoardPrebuilt \
+#    SafetyHubPrebuilt \
+#    SettingsIntelligenceGooglePrebuilt \
     ViaBrowser
 
 #End
