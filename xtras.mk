@@ -47,8 +47,6 @@ PRODUCT_PACKAGES += \
     VinylMusicPlayer \
     GalleryPrebuilt \
 #    GBoardPrebuilt \
-#    SafetyHubPrebuilt \
-#    SettingsIntelligenceGooglePrebuilt \
     ViaBrowser
 
 #End
