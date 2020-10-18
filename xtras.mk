@@ -42,6 +42,9 @@ include vendor/xtras/fonts/fonts.mk
 # Include Brightness Slider Styles
 #include vendor/xtras/BrightnessSlider/slider.mk
 
+# Include Navar Gesture lengths
+include vendor/xtras/Navbar/Navbar.mk
+
 # Xtended packages
 PRODUCT_PACKAGES += \
     VinylMusicPlayer \
