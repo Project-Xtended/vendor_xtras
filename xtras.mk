@@ -47,6 +47,7 @@ PRODUCT_PACKAGES += \
     VinylMusicPlayer \
     GalleryPrebuilt \
     Flipendo \
+    TurboAdapter \
     GBoardPrebuilt \
     ViaBrowser \
     TurboPrebuilt
