@@ -46,6 +46,7 @@ include vendor/xtras/fonts/fonts.mk
 PRODUCT_PACKAGES += \
     VinylMusicPlayer \
     GalleryPrebuilt \
+    Flipendo \
     GBoardPrebuilt \
     ViaBrowser \
     TurboPrebuilt
