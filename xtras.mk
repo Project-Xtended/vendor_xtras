@@ -47,7 +47,7 @@ include vendor/xtras/Navbar/Navbar.mk
 
 # Xtended packages
 PRODUCT_PACKAGES += \
-    VinylMusicPlayer \
+    MetroMusicPlayer \
     GalleryPrebuilt \
     Flipendo \
     TurboAdapter \

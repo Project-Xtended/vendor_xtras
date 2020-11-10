@@ -45,7 +45,7 @@ LOCAL_OVERRIDES_PACKAGES := Gallery Gallery2 Gallery3D GalleryNew3D
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := VinylMusicPlayer
+LOCAL_MODULE := MetroMusicPlayer
 LOCAL_SRC_FILES := priv-app/$(LOCAL_MODULE).apk
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_PRIVILEGED_MODULE := true
