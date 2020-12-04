@@ -34,7 +34,7 @@ LOCAL_DEX_PREOPT := false
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := GalleryPrebuilt
+LOCAL_MODULE := SimpleGallery
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := app/$(LOCAL_MODULE).apk
 LOCAL_CERTIFICATE := PRESIGNED

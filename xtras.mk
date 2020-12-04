@@ -48,7 +48,7 @@ include vendor/xtras/Navbar/Navbar.mk
 # Xtended packages
 PRODUCT_PACKAGES += \
     MetroMusicPlayer \
-    GalleryPrebuilt \
+    SimpleGallery \
     Flipendo \
     TurboAdapter \
     GBoardPrebuilt \
