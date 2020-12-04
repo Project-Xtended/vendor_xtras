@@ -51,4 +51,8 @@ PRODUCT_PACKAGES += \
     ViaBrowser \
     TurboPrebuilt
 
+ifeq ($(EXTRA_FOD_ANIMATIONS),true)
+PRODUCT_PACKAGES += \
+    FodAnimations
+endif
 #End
