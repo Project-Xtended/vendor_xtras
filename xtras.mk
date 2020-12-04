@@ -16,10 +16,6 @@ LOCAL_PATH := $(call my-dir)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 
 DEVICE_PACKAGE_OVERLAYS += vendor/xtras/overlay/common
-ifeq ($(EXTRA_FOD_ANIMATIONS),true)
-DEVICE_PACKAGE_OVERLAYS += vendor/xtras/overlay/fod
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/xtras/overlay/fod
-endif
 
 # Include Xtended theme files
 include vendor/xtras/themes/themes.mk
