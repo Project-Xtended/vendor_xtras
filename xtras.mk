@@ -49,7 +49,8 @@ PRODUCT_PACKAGES += \
     TurboAdapter \
     GBoardPrebuilt \
     ViaBrowser \
-    TurboPrebuilt
+    TurboPrebuilt \
+    CameraGo
 
 ifeq ($(EXTRA_FOD_ANIMATIONS),true)
 PRODUCT_PACKAGES += \
