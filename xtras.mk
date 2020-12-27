@@ -51,3 +51,14 @@ include vendor/xtras/qsthemes/qsthemes.mk
 
 # Includes themes
 include vendor/xtras/themes/themes.mk
+
+ifeq ($(EXTRA_FOD_ANIMATIONS),true)
+PRODUCT_PACKAGES += \
+    FodAnimationResources
+endif
+
+ifeq ($(TARGET_HAS_FOD),true)
+DEVICE_PACKAGE_OVERLAYS += vendor/xtras/overlay/fod-icons
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/xtras/overlay/fod-icons
+endif
+
