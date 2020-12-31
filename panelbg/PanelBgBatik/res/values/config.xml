@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="notification_header_text">#ff000000</color>
+    
+    <bool name="config_showGroupNotificationBgWhenExpanded">true</bool>
+    
+  <!-- The height of a notification header -->
+  <dimen name="notification_header_height">45dp</dimen>
+
+  <dimen name="notification_section_header_height">45dp</dimen>
+</resources>

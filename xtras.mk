@@ -55,6 +55,9 @@ include vendor/xtras/themes/themes.mk
 # Include Xtended Switch Styles
 include vendor/xtras/Switch/switch.mk
 
+# Include Xtended Panel bg styles
+include vendor/xtras/panelbg/panelbg.mk
+
 # Include Brightness Slider Styles
 include vendor/xtras/BrightnessSlider/slider.mk
 
@@ -74,4 +77,3 @@ ifeq ($(TARGET_HAS_FOD),true)
 DEVICE_PACKAGE_OVERLAYS += vendor/xtras/overlay/fod-icons
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/xtras/overlay/fod-icons
 endif
-
