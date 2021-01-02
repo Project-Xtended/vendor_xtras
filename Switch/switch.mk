@@ -3,6 +3,5 @@ PRODUCT_PACKAGES += \
     SwitchTelegram \
     SwitchOnePlus \
     SwitchStock \
-    Contained \
-    Retro \
-    Narrow
+    SwitchContained \
+    SwitchNarrow
