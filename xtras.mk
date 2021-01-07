@@ -27,7 +27,7 @@ include vendor/xtras/fonts/fonts.mk
 #include vendor/xtras/QS/qsstyle.mk
 
 # Include Xtended Switch Styles
-#include vendor/xtras/Switch/switch.mk
+include vendor/xtras/Switch/switch.mk
 
 # Include Xtended Qs Tile Styles
 #include vendor/xtras/QsThemes/qstheme.mk
