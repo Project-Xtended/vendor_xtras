@@ -32,9 +32,6 @@ include vendor/xtras/Switch/switch.mk
 # Include Xtended Qs Tile Styles
 #include vendor/xtras/QsThemes/qstheme.mk
 
-# Include Gvm Styles
-#include vendor/xtras/Gvm/gvm.mk
-
 # Include Brightness Slider Styles
 #include vendor/xtras/BrightnessSlider/slider.mk
 
