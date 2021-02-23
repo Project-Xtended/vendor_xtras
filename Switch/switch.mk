@@ -6,4 +6,5 @@ PRODUCT_PACKAGES += \
     SwitchContained \
     SwitchNarrow \
     Retro \
-    MD2
+    MD2 \
+    OOS
