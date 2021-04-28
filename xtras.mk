@@ -19,6 +19,9 @@ include $(call all-subdir-makefiles,$(LOCAL_PATH))
 # Copy fonts to system
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xtras/fonts,$(TARGET_COPY_OUT_SYSTEM)/fonts)
 
+# Includes icon packs/shapes
+include vendor/xtras/icons/icons.mk
+
 # Includes fonts
 include vendor/xtras/fonts/fonts.mk
 
