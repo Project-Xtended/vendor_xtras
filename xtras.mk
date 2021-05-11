@@ -35,7 +35,7 @@ include vendor/xtras/cutout/cutout.mk
 include vendor/xtras/icons/icons.mk
 
 # Includes fonts
-include vendor/xtras/fonts/fonts.mk
+#include vendor/xtras/fonts/fonts.mk
 
 # Includes gvm
 include vendor/xtras/gvm/gvm.mk
@@ -54,6 +54,10 @@ include vendor/xtras/themes/themes.mk
 
 # Include Xtended Switch Styles
 include vendor/xtras/Switch/switch.mk
+
+# Fonts
+PRODUCT_PACKAGES += \
+    Xtended-Fonts
 
 ifeq ($(EXTRA_FOD_ANIMATIONS),true)
 PRODUCT_PACKAGES += \
