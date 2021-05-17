@@ -14,6 +14,6 @@
 
 # Prebuilt packages
 PRODUCT_PACKAGES += \
+    GalleryGoPrebuilt \
     MetroMusicPlayer \
-    SimpleGallery \
     ViaBrowser
