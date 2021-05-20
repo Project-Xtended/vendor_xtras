@@ -7,4 +7,5 @@ PRODUCT_PACKAGES += \
     SwitchNarrow \
     Retro \
     MD2 \
-    OOS
+    OOS \
+    Fluid
