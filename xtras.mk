@@ -26,7 +26,7 @@ endif
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xtras/fonts,$(TARGET_COPY_OUT_SYSTEM)/fonts)
 
 # Includes accents
-include vendor/xtras/accents/accents.mk
+#include vendor/xtras/accents/accents.mk
 
 # Includes cutout shapes
 include vendor/xtras/cutout/cutout.mk
