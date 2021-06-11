@@ -58,6 +58,9 @@ include vendor/xtras/Switch/switch.mk
 # Include Brightness Slider Styles
 include vendor/xtras/BrightnessSlider/slider.mk
 
+# Include System-wide Slider Styles
+include vendor/xtras/SliderStyles/sliderstyles.mk
+
 # Fonts
 PRODUCT_PACKAGES += \
     Xtended-Fonts
