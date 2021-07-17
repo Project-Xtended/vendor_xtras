@@ -4,4 +4,6 @@ PRODUCT_PACKAGES += \
     SwitchOnePlus \
     SwitchStock \
     SwitchContained \
-    SwitchNarrow
+    SwitchNarrow \
+    Retro \
+    MD2
