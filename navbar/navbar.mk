@@ -16,6 +16,7 @@
 PRODUCT_PACKAGES += \
     GesturalNavigationOverlayLong \
     GesturalNavigationOverlayMedium \
+    GesturalNavigationOverlayFalseHidden \
     GesturalNavigationOverlayHidden \
     AndroidNavbarOverlay \
     AsusNavbarOverlay \
