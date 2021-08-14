@@ -14,7 +14,10 @@
 
 # Prebuilt packages
 PRODUCT_PACKAGES += \
+    Flipendo \
+    FlipendoOverlay \
     GalleryGoPrebuilt \
     MetroMusicPlayer \
     WeatherIcons \
+    TurboAdapter \
     ViaBrowser
