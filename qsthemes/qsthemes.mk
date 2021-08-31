@@ -12,6 +12,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# QS Tile Size
+PRODUCT_PACKAGES += \
+    QsTileSizeXLarge \
+    QsTileSizeLarge \
+    QsTileSizeSmall \
+    QsTileSizeXSmall \
+    QsTileSizeStock
+
 # QS header size
 PRODUCT_PACKAGES += \
     HeaderLarge \
