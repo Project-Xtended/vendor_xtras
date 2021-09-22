@@ -2,4 +2,7 @@
 PRODUCT_PACKAGES += \
     PanelBgBatik \
     PanelBgKece \
-    PanelBgOutline
+    PanelBgOutline \
+    PanelBgXAccent \
+    PanelBgXGradient \
+    PanelBgXRevGrad
