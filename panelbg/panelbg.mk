@@ -5,4 +5,6 @@ PRODUCT_PACKAGES += \
     PanelBgOutline \
     PanelBgXAccent \
     PanelBgXGradient \
-    PanelBgXRevGrad
+    PanelBgXRevGrad \
+    PanelBgGradKece \
+    PanelBgRevGradKece

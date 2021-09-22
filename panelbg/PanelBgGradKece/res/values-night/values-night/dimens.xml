@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="notification_divider_height">5dp</dimen>
+	<dimen name="notification_divider_height_increased">5dp</dimen>
+
+<item type="dimen" name="notification_divider_alpha">0.1</item>
+    <item type="dimen" name="notification_panel_background_radius">@*android:dimen/control_corner_material</item>
+    <item type="dimen" name="notification_shadow_radius">@*android:dimen/control_corner_material</item>
+    <item type="dimen" name="recents_task_view_rounded_corners_radius">@*android:dimen/control_corner_material</item>
+    <dimen name="z_distance_between_notifications">10.0dip</dimen>
+</resources>
