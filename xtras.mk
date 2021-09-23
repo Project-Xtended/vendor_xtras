@@ -58,6 +58,9 @@ include vendor/xtras/Switch/switch.mk
 # Include Xtended Panel bg styles
 include vendor/xtras/panelbg/panelbg.mk
 
+# Include Xtended Notif Header Cat styles
+include vendor/xtras/NotifCategoryTheme/notifcattheme.mk
+
 # Include Brightness Slider Styles
 include vendor/xtras/BrightnessSlider/slider.mk
 
