@@ -27,6 +27,10 @@ PRODUCT_PACKAGES += \
 
 # QS tile styles
 PRODUCT_PACKAGES += \
+    QsTileCircleDecor \
+    QsTileHexDecor \
+    QsTileRoyalCrown \
+    QsTileXtndDecor \
     QStileCircleTrim \
     QStileDefault \
     QStileDualToneCircle \
