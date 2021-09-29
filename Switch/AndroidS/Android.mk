@@ -2,7 +2,8 @@ LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 LOCAL_MODULE_TAGS := optional
 
-LOCAL_PACKAGE_NAME := AndroidS
+LOCAL_RRO_THEME := SwitchAndroidS
+LOCAL_PACKAGE_NAME := SwitchAndroidS
 LOCAL_SDK_VERSION := current
 LOCAL_CERTIFICATE := platform
 LOCAL_PRIVILEGED_MODULE := false

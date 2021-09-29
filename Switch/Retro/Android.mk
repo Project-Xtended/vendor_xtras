@@ -2,7 +2,8 @@ LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 CAL_MODULE_TAGS := optional
 
-LOCAL_PACKAGE_NAME := Retro
+LOCAL_RRO_THEME := SwitchRetro
+LOCAL_PACKAGE_NAME := SwitchRetro
 LOCAL_SDK_VERSION := current
 LOCAL_CERTIFICATE := platform
 LOCAL_PRIVILEGED_MODULE := false

@@ -5,8 +5,8 @@ PRODUCT_PACKAGES += \
     SwitchStock \
     SwitchContained \
     SwitchNarrow \
-    Retro \
-    MD2 \
-    OOS \
-    Fluid \
-    AndroidS
+    SwitchRetro \
+    SwitchMD2 \
+    SwitchOOS \
+    SwitchFluid \
+    SwitchAndroidS
