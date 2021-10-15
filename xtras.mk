@@ -17,66 +17,66 @@ LOCAL_PATH := $(call my-dir)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 
 # Conditional FOD Animations
-ifeq ($(EXTRA_FOD_ANIMATIONS),true)
-PRODUCT_PACKAGES += \
-    FodAnimations
-endif
+#ifeq ($(EXTRA_FOD_ANIMATIONS),true)
+#PRODUCT_PACKAGES += \
+#    FodAnimations
+#endif
 
 # Copy fonts to system
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xtras/fonts,$(TARGET_COPY_OUT_SYSTEM)/fonts)
+#PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xtras/fonts,$(TARGET_COPY_OUT_SYSTEM)/fonts)
 
 # Includes accents
 #include vendor/xtras/accents/accents.mk
 
 # Includes cutout shapes
-include vendor/xtras/cutout/cutout.mk
+#include vendor/xtras/cutout/cutout.mk
 
 # Includes icon packs/shapes
-include vendor/xtras/icons/icons.mk
+#include vendor/xtras/icons/icons.mk
 
 # Includes fonts
 #include vendor/xtras/fonts/fonts.mk
 
 # Includes gvm
-include vendor/xtras/gvm/gvm.mk
+#include vendor/xtras/gvm/gvm.mk
 
 # Includes navbar
-include vendor/xtras/navbar/navbar.mk
+#include vendor/xtras/navbar/navbar.mk
 
 # Includes prebuilts
 include vendor/xtras/prebuilts/prebuilts.mk
 
 # Includes qsthemes
-include vendor/xtras/qsthemes/qsthemes.mk
+#include vendor/xtras/qsthemes/qsthemes.mk
 
 # Includes themes
-include vendor/xtras/themes/themes.mk
+#include vendor/xtras/themes/themes.mk
 
 # Include Xtended Switch Styles
-include vendor/xtras/Switch/switch.mk
+#include vendor/xtras/Switch/switch.mk
 
 # Include Xtended Panel bg styles
-include vendor/xtras/panelbg/panelbg.mk
+#include vendor/xtras/panelbg/panelbg.mk
 
 # Include Xtended Notif Header Cat styles
-include vendor/xtras/NotifCategoryTheme/notifcattheme.mk
+#include vendor/xtras/NotifCategoryTheme/notifcattheme.mk
 
 # Include Brightness Slider Styles
-include vendor/xtras/BrightnessSlider/slider.mk
+#include vendor/xtras/BrightnessSlider/slider.mk
 
 # Include System-wide Slider Styles
-include vendor/xtras/SliderStyles/sliderstyles.mk
+#include vendor/xtras/SliderStyles/sliderstyles.mk
 
 # Fonts
-PRODUCT_PACKAGES += \
-    Xtended-Fonts
+#PRODUCT_PACKAGES += \
+#    Xtended-Fonts
 
-ifeq ($(EXTRA_FOD_ANIMATIONS),true)
-PRODUCT_PACKAGES += \
-    FodAnimationResources
-endif
+#ifeq ($(EXTRA_FOD_ANIMATIONS),true)
+#PRODUCT_PACKAGES += \
+#    FodAnimationResources
+#endif
 
-ifeq ($(TARGET_HAS_FOD),true)
-DEVICE_PACKAGE_OVERLAYS += vendor/xtras/overlay/fod-icons
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/xtras/overlay/fod-icons
-endif
+#ifeq ($(TARGET_HAS_FOD),true)
+#DEVICE_PACKAGE_OVERLAYS += vendor/xtras/overlay/fod-icons
+#PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/xtras/overlay/fod-icons
+#endif
