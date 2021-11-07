@@ -17,13 +17,13 @@ PRODUCT_PACKAGES += \
     GesturalNavigationOverlayLong \
     GesturalNavigationOverlayMedium \
     GesturalNavigationOverlayFalseHidden \
-    GesturalNavigationOverlayHidden \
-    AndroidNavbarOverlay \
-    AsusNavbarOverlay \
-    MotoNavbarOverlay \
-    NexusNavbarOverlay \
-    OldNavbarOverlay \
-    OnePlusNavbarOverlay \
-    OneUiNavbarOverlay \
-    SammyNavbarOverlay \
-    TecnoCamonNavbarOverlay
+    GesturalNavigationOverlayHidden
+#    AndroidNavbarOverlay \
+#    AsusNavbarOverlay \
+#    MotoNavbarOverlay \
+#    NexusNavbarOverlay \
+#    OldNavbarOverlay \
+#    OnePlusNavbarOverlay \
+#    OneUiNavbarOverlay \
+#    SammyNavbarOverlay \
+#    TecnoCamonNavbarOverlay

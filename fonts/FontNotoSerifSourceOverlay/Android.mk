@@ -14,16 +14,16 @@
 # limitations under the License.
 #
 
-LOCAL_PATH:= $(call my-dir)
-include $(CLEAR_VARS)
+#LOCAL_PATH:= $(call my-dir)
+#include $(CLEAR_VARS)
 
-LOCAL_RRO_THEME := FontNotoSerifSource
+#LOCAL_RRO_THEME := FontNotoSerifSource
 
-LOCAL_PRODUCT_MODULE := true
+#LOCAL_PRODUCT_MODULE := true
 
-LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res
+#LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res
 
-LOCAL_PACKAGE_NAME := FontNotoSerifSourceOverlay
-LOCAL_SDK_VERSION := current
+#LOCAL_PACKAGE_NAME := FontNotoSerifSourceOverlay
+#LOCAL_SDK_VERSION := current
 
-include $(BUILD_RRO_PACKAGE)
+#include $(BUILD_RRO_PACKAGE)

@@ -41,7 +41,7 @@ include $(call all-subdir-makefiles,$(LOCAL_PATH))
 #include vendor/xtras/gvm/gvm.mk
 
 # Includes navbar
-#include vendor/xtras/navbar/navbar.mk
+include vendor/xtras/navbar/navbar.mk
 
 # Includes prebuilts
 include vendor/xtras/prebuilts/prebuilts.mk

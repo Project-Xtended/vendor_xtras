@@ -34,7 +34,7 @@ PRODUCT_PACKAGES += \
     FontLGSmartGothicSourceOverlay \
     FontLinotte \
     FontNokiaPureSourceOverlay \
-    FontNotoSerifSourceOverlay \
+#    FontNotoSerifSourceOverlay \
     FontNunitoSourceOverlay \
     FontOdudaSourceOverlay \
     FontOneplusSlateSource \
