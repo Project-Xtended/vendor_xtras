@@ -50,7 +50,7 @@ include vendor/xtras/prebuilts/prebuilts.mk
 #include vendor/xtras/qsthemes/qsthemes.mk
 
 # Includes themes
-#include vendor/xtras/themes/themes.mk
+include vendor/xtras/themes/themes.mk
 
 # Include Xtended Switch Styles
 #include vendor/xtras/Switch/switch.mk
