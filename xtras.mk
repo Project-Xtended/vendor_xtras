@@ -23,7 +23,7 @@ include $(call all-subdir-makefiles,$(LOCAL_PATH))
 #endif
 
 # Copy fonts to system
-#PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xtras/fonts,$(TARGET_COPY_OUT_SYSTEM)/fonts)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xtras/fonts,$(TARGET_COPY_OUT_SYSTEM)/fonts)
 
 # Includes accents
 #include vendor/xtras/accents/accents.mk
