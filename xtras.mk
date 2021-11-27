@@ -35,7 +35,7 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xtras/fonts,$(TARGE
 #include vendor/xtras/icons/icons.mk
 
 # Includes fonts
-#include vendor/xtras/fonts/fonts.mk
+include vendor/xtras/fonts/fonts.mk
 
 # Includes gvm
 #include vendor/xtras/gvm/gvm.mk
