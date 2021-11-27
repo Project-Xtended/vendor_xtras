@@ -32,7 +32,7 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xtras/fonts,$(TARGE
 #include vendor/xtras/cutout/cutout.mk
 
 # Includes icon packs/shapes
-#include vendor/xtras/icons/icons.mk
+include vendor/xtras/icons/icons.mk
 
 # Includes fonts
 include vendor/xtras/fonts/fonts.mk
