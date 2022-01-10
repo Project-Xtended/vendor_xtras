@@ -16,6 +16,7 @@
 
 runtime_resource_overlay {
     name: "GesturalNavigationOverlayHidden",
+    theme: "GesturalNavigationOverlayHidden",
     sdk_version: "current",
     resource_dirs: ["res"],
     product_specific: true,
