@@ -31,6 +31,9 @@ include vendor/xtras/fonts/fonts.mk
 # Includes navbar
 include vendor/xtras/navbar/navbar.mk
 
+# Includes prebuilts
+include vendor/xtras/prebuilt/prebuilt.mk
+
 # Includes qsthemes
 #include vendor/xtras/qsthemes/qsthemes.mk
 
