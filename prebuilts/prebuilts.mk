@@ -18,6 +18,5 @@ PRODUCT_PACKAGES += \
     FlipendoOverlay \
     GalleryGoPrebuilt \
     MetroMusicPlayer \
-    WeatherIcons \
     TurboAdapter \
     ViaBrowser
