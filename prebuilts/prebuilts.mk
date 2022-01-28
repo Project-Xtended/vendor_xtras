@@ -14,6 +14,7 @@
 
 # Prebuilt packages
 PRODUCT_PACKAGES += \
+    SettingsIntelligenceGooglePrebuilt \
     Flipendo \
     FlipendoOverlay \
     GalleryGoPrebuilt \
