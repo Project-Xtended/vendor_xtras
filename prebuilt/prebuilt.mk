@@ -16,6 +16,7 @@
 PRODUCT_PACKAGES += \
     DeviceIntelligenceNetworkPrebuilt \
     DevicePersonalizationPrebuiltPixel2021 \
+    FlipendoPrebuilt \
     GboardGoPrebuilt \
     GrapheneCamera \
     SettingsIntelligenceGooglePrebuilt \
