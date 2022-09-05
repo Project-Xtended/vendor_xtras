@@ -71,10 +71,10 @@ include vendor/xtras/themes/themes.mk
 #PRODUCT_PACKAGES += \
 #    Xtended-Fonts
 
-ifeq ($(EXTRA_UDFPS_ANIMATIONS),true)
-PRODUCT_PACKAGES += \
-    UdfpsResources
-endif
+#ifeq ($(EXTRA_UDFPS_ANIMATIONS),true)
+#PRODUCT_PACKAGES += \
+#    UdfpsResources
+#endif
 
 #ifeq ($(TARGET_HAS_FOD),true)
 #DEVICE_PACKAGE_OVERLAYS += vendor/xtras/overlay/fod-icons
