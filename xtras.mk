@@ -130,6 +130,12 @@ PRODUCT_PACKAGES += \
     TurboPrebuilt \
     ViaBrowser
     
+# QS Panel
+PRODUCT_PACKAGES += \
+    QSRoundedRectangle \
+    QSOutline \
+    QSTwoToneAccent
+    
 # Statusbar Icons
 PRODUCT_PACKAGES += \
     StrokeSignalOverlay \
