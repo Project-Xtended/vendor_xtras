@@ -106,18 +106,30 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xtras/fonts,$(TARGE
 
 # Icon shapes
 PRODUCT_PACKAGES += \
+    IconShapeCloudyOverlay \
+    IconShapeCloudyRoundedOverlay \
     IconShapeCylinderOverlay \
+    IconShapeCylinderRoundedOverlay \
+    IconShapeFlowerOverlay \
+    IconShapeFlowerRoundedOverlay \
     IconShapeHeartOverlay \
+    IconShapeHeartRoundedOverlay \
     IconShapeHexagonOverlay \
+    IconShapeLeafRoundedOverlay \
+    IconShapePebbleRoundedOverlay \
     IconShapeLeafOverlay \
     IconShapePebbleOverlay \
     IconShapeRoundedHexagonOverlay \
     IconShapeRoundedRectOverlay \
     IconShapeSquareOverlay \
     IconShapeSquircleOverlay \
+    IconShapeStretchedOverlay \
     IconShapeTaperedRectOverlay \
     IconShapeTeardropOverlay \
-    IconShapeVesselOverlay
+    IconShapeVesselOverlay \
+    RohieIconMeowOverlay \
+    DefaultButSquareOverlay \
+    RiceBallsOverlay
 
 # Navbar
 PRODUCT_PACKAGES += \
@@ -132,7 +144,6 @@ PRODUCT_PACKAGES += \
     
 # QS Panel
 PRODUCT_PACKAGES += \
-    QSRoundedRectangle \
     QSOutline \
     QSTwoToneAccent
     
