@@ -16,17 +16,8 @@ LOCAL_PATH := $(call my-dir)
 
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 
-# Conditional FOD Animations
-#ifeq ($(EXTRA_FOD_ANIMATIONS),true)
-#PRODUCT_PACKAGES += \
-#    FodAnimations
-#endif
-
 # Copy fonts to system
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xtras/fonts,$(TARGET_COPY_OUT_SYSTEM)/fonts)
-
-# Includes accents
-#include vendor/xtras/accents/accents.mk
 
 # Includes cutout shapes
 #include vendor/xtras/cutout/cutout.mk
@@ -36,9 +27,6 @@ include vendor/xtras/icons/icons.mk
 
 # Includes fonts
 include vendor/xtras/fonts/fonts.mk
-
-# Includes gvm
-#include vendor/xtras/gvm/gvm.mk
 
 # Includes navbar
 include vendor/xtras/navbar/navbar.mk
@@ -72,8 +60,3 @@ ifeq ($(EXTRA_UDFPS_ANIMATIONS),true)
 PRODUCT_PACKAGES += \
     UdfpsResources
 endif
-
-#ifeq ($(TARGET_HAS_FOD),true)
-#DEVICE_PACKAGE_OVERLAYS += vendor/xtras/overlay/fod-icons
-#PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/xtras/overlay/fod-icons
-#endif

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="qs_tile_background_size">49dp</dimen>
-    <dimen name="qs_quick_tile_size">56dp</dimen>
-    <dimen name="qs_tile_icon_size">28dp</dimen>
-    <dimen name="qs_tile_text_size">14sp</dimen>
-</resources>
