@@ -1,0 +1,11 @@
+android_app_import {
+	name: "GboardGoPrebuilt",
+	owner: "google",
+	apk: "GboardGoPrebuilt.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+	overrides: ["LatinIME"],
+}

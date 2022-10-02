@@ -16,5 +16,6 @@
 PRODUCT_PACKAGES += \
     DeviceIntelligenceNetworkPrebuilt \
     DevicePersonalizationPrebuiltPixel2021 \
+    GboardGoPrebuilt \
     SettingsIntelligenceGooglePrebuilt \
     TurboPrebuilt
