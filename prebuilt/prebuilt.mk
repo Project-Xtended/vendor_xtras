@@ -20,7 +20,8 @@ PRODUCT_PACKAGES += \
     GboardGoPrebuilt \
     GrapheneCamera \
     SettingsIntelligenceGooglePrebuilt \
-    TurboPrebuilt
+    TurboPrebuilt \
+    ViaBrowser
     
 PRODUCT_COPY_FILES += \
     vendor/xtras/prebuilt/product/etc/sysconfig/dialer_experience.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/dialer_experience.xml \
