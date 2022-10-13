@@ -14,6 +14,7 @@
 
 # Prebuilt packages
 PRODUCT_PACKAGES += \
+    CalendarGooglePrebuilt \
     DeviceIntelligenceNetworkPrebuilt \
     DevicePersonalizationPrebuiltPixel2021 \
     GboardGoPrebuilt \

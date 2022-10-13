@@ -1,0 +1,11 @@
+android_app_import {
+	name: "CalendarGooglePrebuilt",
+	owner: "google",
+	apk: "CalendarGooglePrebuilt.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+	overrides: ["Calendar"],
+}
