@@ -19,6 +19,7 @@ PRODUCT_PACKAGES += \
     DevicePersonalizationPrebuiltPixel2021 \
     GboardGoPrebuilt \
     GrapheneCamera \
+    PrebuiltDeskClockGoogle \
     SettingsIntelligenceGooglePrebuilt \
     TurboPrebuilt \
     ViaBrowser
