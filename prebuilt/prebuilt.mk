@@ -18,7 +18,6 @@ PRODUCT_PACKAGES += \
     DeviceIntelligenceNetworkPrebuilt \
     DevicePersonalizationPrebuiltPixel2021 \
     GboardGoPrebuilt \
-    GrapheneCamera \
     PrebuiltDeskClockGoogle \
     SettingsIntelligenceGooglePrebuilt \
     TurboPrebuilt \
