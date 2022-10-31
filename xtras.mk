@@ -47,6 +47,23 @@ PRODUCT_PACKAGES += \
     InsideSignalOverlay \
     BarsSignalOverlay
 
+# Themes
+PRODUCT_PACKAGES += \
+    BakedGreenSystemOverlay \
+    BakedGreenSystemUIOverlay \
+    ChocoXSystemOverlay \
+    ChocoXSystemUIOverlay \
+    DarkGreySystemOverlay \
+    DarkGreySystemUIOverlay \
+    MaterialOceanSystemOverlay \
+    MaterialOceanSystemUIOverlay \
+    PitchBlackSystemOverlay \
+    PitchBlackSystemUIOverlay \
+    SolarizedDarkSystemOverlay \
+    SolarizedDarkSystemUIOverlay \
+    XtendedClearSystemOverlay \
+    XtendedClearSystemUIOverlay
+
 # Wi-Fi Icons
 PRODUCT_PACKAGES += \
     StrokeWiFiOverlay \
