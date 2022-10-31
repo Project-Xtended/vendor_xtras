@@ -47,6 +47,10 @@ PRODUCT_PACKAGES += \
     GesturalNavigationOverlayMedium \
     GesturalNavigationOverlayHidden
 
+# Prebuilt packages
+PRODUCT_PACKAGES += \
+    ViaBrowser
+    
 # Statusbar Icons
 PRODUCT_PACKAGES += \
     StrokeSignalOverlay \

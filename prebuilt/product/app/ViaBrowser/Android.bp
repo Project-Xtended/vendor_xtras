@@ -1,0 +1,10 @@
+android_app_import {
+    name: "ViaBrowser",
+    apk: "ViaBrowser.apk",
+    presigned: true,
+    product_specific: true,
+    overrides: ["Jelly", "Browser2",],
+    dex_preopt: {
+        enabled: false,
+    },
+}
