@@ -20,6 +20,9 @@ PRODUCT_PACKAGES += \
     UdfpsResources
 endif
 
+# Bootanimation
+include vendor/xtras/prebuilt/bootanimation/bootanimation.mk
+
 # Copy fonts to system
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xtras/fonts,$(TARGET_COPY_OUT_SYSTEM)/fonts)
 
