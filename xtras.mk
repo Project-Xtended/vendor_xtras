@@ -41,6 +41,12 @@ PRODUCT_PACKAGES += \
     IconShapeTeardropOverlay \
     IconShapeVesselOverlay
 
+# Navbar
+PRODUCT_PACKAGES += \
+    GesturalNavigationOverlayLong \
+    GesturalNavigationOverlayMedium \
+    GesturalNavigationOverlayHidden
+
 # Statusbar Icons
 PRODUCT_PACKAGES += \
     StrokeSignalOverlay \
