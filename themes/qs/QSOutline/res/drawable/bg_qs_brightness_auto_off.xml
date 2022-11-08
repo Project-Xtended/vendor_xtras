@@ -18,6 +18,6 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
     <corners android:radius="@dimen/qs_corner_radius" />
     <stroke android:width="@dimen/qs_tile_stroke" android:color="?android:attr/colorAccent" />
-    <solid android:color="#00ffffff" />
+    <solid android:color="@drawable/color_accent_alpha" />
     <size android:width="48dp" android:height="48dp" />
 </shape>

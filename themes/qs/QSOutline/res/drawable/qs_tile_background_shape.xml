@@ -21,7 +21,7 @@
         <shape android:shape="rectangle">
             <stroke android:width="@dimen/qs_tile_stroke" android:color="#ffffffff" />
             <corners android:radius="@dimen/qs_corner_radius" />
-            <solid android:color="#00ffffff" />
+            <solid android:color="#80ffffff" />
         </shape>
       </inset>
     </item>
