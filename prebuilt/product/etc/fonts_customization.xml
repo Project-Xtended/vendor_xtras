@@ -52,15 +52,21 @@
         <font weight="700" style="normal">GoogleSans-Bold.ttf</font>
         <font weight="700" style="italic">GoogleSans-BoldItalic.ttf</font>
     </family>
+    <alias name="googlesans-light" to="googlesans" weight="300" />
     <alias name="googlesans-regular" to="googlesans" weight="400" />
     <alias name="googlesans-medium" to="googlesans" weight="500" />
+    <alias name="googlesans-semi-bold" to="googlesans" weight="600" />
     <alias name="googlesans-bold" to="googlesans" weight="700" />
 
     <!-- Google Sans Clock-->
     <family customizationType="new-named-family" name="googlesansclock">
         <font>GoogleSansClock-Regular.ttf</font>
     </family>
-    <alias name="googlesansclock-regular" to="googlesansclock" weight="400" />
+    <alias name="googlesans-light" to="googlesans" weight="300" />
+    <alias name="googlesans-regular" to="googlesans" weight="400" />
+    <alias name="googlesans-medium" to="googlesans" weight="500" />
+    <alias name="googlesans-semi-bold" to="googlesans" weight="600" />
+    <alias name="googlesans-bold" to="googlesans" weight="700" />
 
     <!-- Apice Outline -->
     <family customizationType="new-named-family" name="apiceoutline">
@@ -72,7 +78,7 @@
     <family customizationType="new-named-family" name="audimat">
         <font>AudimatMonoRegular.ttf</font>
     </family>
-    <alias name="audimat-regular" to="googlesansclock" weight="400" />
+    <alias name="audimat-regular" to="audimat" weight="400" />
 
     <!-- Geometos Soft Extra Bold-->
     <family customizationType="new-named-family" name="geometossoftextrabold">
