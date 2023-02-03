@@ -168,7 +168,12 @@ PRODUCT_PACKAGES += \
     ClockFontProdeltCoOverlay \
     ClockFontRoadRageOverlay \
     ClockFontTourneyMediumOverlay \
-    ClockFontZeroFourOverlay
+    ClockFontZeroFourOverlay \
+    ClockFontCatOverlay \
+    ClockFontConcentrateOverlay \
+    ClockFontKarmaticArcadeOverlay \
+    ClockFontLiquidCrystalOverlay \
+    ClockFontVG5000Overlay
     
 # Wi-Fi Icons
 PRODUCT_PACKAGES += \
