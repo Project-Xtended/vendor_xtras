@@ -70,6 +70,7 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt packages
 PRODUCT_PACKAGES += \
+    TurboPrebuilt \
     ViaBrowser
     
 # Statusbar Icons
