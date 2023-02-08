@@ -145,7 +145,13 @@ PRODUCT_PACKAGES += \
 # QS Panel
 PRODUCT_PACKAGES += \
     QSOutline \
-    QSTwoToneAccent
+    QSTwoToneAccent \
+    QSShaded \
+    QSCyberPunk \
+    QSNeumorph \
+    QSReflected \
+    QSSurround \
+    QSThin
     
 # Statusbar Icons
 PRODUCT_PACKAGES += \
