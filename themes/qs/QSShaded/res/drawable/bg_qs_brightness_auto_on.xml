@@ -5,8 +5,8 @@
             <corners android:radius="@dimen/qs_corner_radius" />
             <gradient
                 android:angle="0.0"
-                android:endColor="@*android:color/system_accent1_400"
-                android:startColor="@*android:color/system_accent1_400" />
+                android:endColor="@*android:color/system_accent1_600"
+                android:startColor="@*android:color/system_accent1_600" />
             <size
                 android:width="48.0dip"
                 android:height="48.0dip" />
