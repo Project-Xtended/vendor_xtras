@@ -18,11 +18,59 @@ include $(call all-subdir-makefiles,$(LOCAL_PATH))
 PRODUCT_PACKAGE_OVERLAYS += vendor/xtras/overlay/common
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/xtras/overlay/common
 
-ifeq ($(EXTRA_UDFPS_ANIMATIONS),true)
+# Fonts
 PRODUCT_PACKAGES += \
-    UdfpsResources
-endif
-
+    fonts_customization.xml \
+    FontAccuratistOverlay \
+    FontAclonicaOverlay \
+    FontAmaranteOverlay \
+    FontApiceOverlay \
+    FontAudimatOverlay \
+    FontBariolOverlay \
+    FontCagliostroOverlay \
+    FontCoconOverlay \
+    FontComfortaaOverlay \
+    FontComicSansOverlay \
+    FontCoolstoryOverlay \
+    FontExotwoOverlay \
+    FontEvolveSansOverlay \
+    FontEvoSansOverlay \
+    FontFifa2018Overlay \
+    FontFluidSansOverlay \
+    FontGoogleSansOverlay \
+    FontGoogleSansClockOverlay \
+    FontGeometosOverlay \
+    FontGrandHotelOverlay \
+    FontHarmonySansOverlay \
+    FontInterSourceOverlay \
+    FontJTLeonorOverlay \
+    FontLatoOverlay \
+    FontLGSmartGothicOverlay \
+    FontLinotteOverlay \
+    FontMiSansOverlay \
+    FontNokiaPureOverlay \
+    FontNothiingDotOverlay \
+    FontNothingDotHeadlineOverlay \
+    FontNunitoOverlay \
+    FontOneplusSansOverlay \
+    FontOneplusSlateOverlay \
+    FontOppoSansOverlay \
+    FontOswaldOverlay \
+    FontProductSansVHOverlay \
+    FontQuandoOverlay \
+    FontRedressedOverlay \
+    FontReemKufiOverlay \
+    FontRobotoCondensedOverlay \
+    FontRosemaryOverlay \
+    FontRubikOverlay \
+    FontSanFranciscoDisplayProSourceOverlay \
+    FontSamsungOneOverlay \
+    FontSimpleDaySourceOverlay \
+    FontSonySketchOverlay \
+    FontStoropiaOverlay \
+    FontSurferOverlay \
+    FontUbuntuOverlay
+    
 PRODUCT_COPY_FILES += \
     vendor/xtras/prebuilt/product/etc/sysconfig/google.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google.xml \
     vendor/xtras/prebuilt/product/etc/sysconfig/pixel_2016_exclusive.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_2016_exclusive.xml \
@@ -43,9 +91,6 @@ include vendor/xtras/prebuilt/bootanimation/bootanimation.mk
 
 # Copy fonts to system
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xtras/fonts,$(TARGET_COPY_OUT_SYSTEM)/fonts)
-
-# Includes fonts
-include vendor/xtras/fonts/fonts.mk
 
 # Icon shapes
 PRODUCT_PACKAGES += \
@@ -111,3 +156,11 @@ PRODUCT_PACKAGES += \
     RoundWiFiOverlay \
     InsideWiFiOverlay \
     BarsWiFiOverlay
+
+ifeq ($(EXTRA_UDFPS_ANIMATIONS),true)
+PRODUCT_PACKAGES += \
+    UdfpsResources
+endif
+
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,vendor/xtras/prebuilt/product/fonts,$(TARGET_COPY_OUT_PRODUCT)/fonts)
