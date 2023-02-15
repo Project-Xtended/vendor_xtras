@@ -16,5 +16,5 @@
 -->
 <resources>
     <!-- Headline / Inter overlay -->
-    <string name="font_fluidsans_overlay" translatable="false">Fluid Sans</string>
+    <string name="font_fluidsans_overlay" translatable="false">Fluid-Sans</string>
 </resources>

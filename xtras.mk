@@ -18,6 +18,21 @@ include $(call all-subdir-makefiles,$(LOCAL_PATH))
 PRODUCT_PACKAGE_OVERLAYS += vendor/xtras/overlay/common
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/xtras/overlay/common
 
+PRODUCT_COPY_FILES += \
+    vendor/xtras/prebuilt/product/etc/sysconfig/google.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google.xml \
+    vendor/xtras/prebuilt/product/etc/sysconfig/pixel_2016_exclusive.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_2016_exclusive.xml \
+    vendor/xtras/prebuilt/product/etc/sysconfig/pixel_experience_2017.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2017.xml \
+    vendor/xtras/prebuilt/product/etc/sysconfig/pixel_experience_2018.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2018.xml \
+    vendor/xtras/prebuilt/product/etc/sysconfig/pixel_experience_2019.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2019.xml \
+    vendor/xtras/prebuilt/product/etc/sysconfig/pixel_experience_2019_midyear.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2019_midyear.xml \
+    vendor/xtras/prebuilt/product/etc/sysconfig/pixel_experience_2020.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2020.xml \
+    vendor/xtras/prebuilt/product/etc/sysconfig/pixel_experience_2020_midyear.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2020_midyear.xml \
+    vendor/xtras/prebuilt/product/etc/sysconfig/pixel_experience_2021.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2021.xml \
+    vendor/xtras/prebuilt/product/etc/sysconfig/pixel_experience_2021_midyear.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2021_midyear.xml \
+    vendor/xtras/prebuilt/product/etc/sysconfig/pixel_experience_2022.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2022.xml \
+    vendor/xtras/prebuilt/product/etc/sysconfig/pixel_experience_2022_midyear.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2022_midyear.xml \
+    vendor/xtras/prebuilt/product/etc/sysconfig/wellbeing.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/wellbeing.xml \
+
 # Clock Fonts
 PRODUCT_PACKAGES += \
     ClockFontAccuratistOverlay \
@@ -55,6 +70,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fonts_customization.xml \
     FontAccuratistOverlay \
+    FontAclonicaOverlay \
+    FontAmaranteOverlay \
     FontBariolOverlay \
     FontCoconOverlay \
     FontComfortaaOverlay \
@@ -62,6 +79,7 @@ PRODUCT_PACKAGES += \
     FontCoolstoryOverlay \
     FontExotwoOverlay \
     FontEvolveSansOverlay \
+    FontFifa2018Overlay \
     FontFluidSansOverlay \
     FontGoogleSansOverlay \
     FontHarmonySansOverlay \
@@ -81,55 +99,25 @@ PRODUCT_PACKAGES += \
     FontSanFranciscoDisplayProSourceOverlay \
     FontSamsungOneOverlay \
     FontSimpleDaySourceOverlay \
-    FontSonySketchOverlay
+    FontSonySketchOverlay \
+    FontStoropiaOverlay \
+    FontSurferOverlay \
+    FontUbuntuOverlay
     
-PRODUCT_COPY_FILES += \
-    vendor/xtras/prebuilt/product/etc/sysconfig/google.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google.xml \
-    vendor/xtras/prebuilt/product/etc/sysconfig/pixel_2016_exclusive.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_2016_exclusive.xml \
-    vendor/xtras/prebuilt/product/etc/sysconfig/pixel_experience_2017.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2017.xml \
-    vendor/xtras/prebuilt/product/etc/sysconfig/pixel_experience_2018.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2018.xml \
-    vendor/xtras/prebuilt/product/etc/sysconfig/pixel_experience_2019.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2019.xml \
-    vendor/xtras/prebuilt/product/etc/sysconfig/pixel_experience_2019_midyear.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2019_midyear.xml \
-    vendor/xtras/prebuilt/product/etc/sysconfig/pixel_experience_2020.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2020.xml \
-    vendor/xtras/prebuilt/product/etc/sysconfig/pixel_experience_2020_midyear.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2020_midyear.xml \
-    vendor/xtras/prebuilt/product/etc/sysconfig/pixel_experience_2021.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2021.xml \
-    vendor/xtras/prebuilt/product/etc/sysconfig/pixel_experience_2021_midyear.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2021_midyear.xml \
-    vendor/xtras/prebuilt/product/etc/sysconfig/pixel_experience_2022.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2022.xml \
-    vendor/xtras/prebuilt/product/etc/sysconfig/pixel_experience_2022_midyear.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2022_midyear.xml \
-    vendor/xtras/prebuilt/product/etc/sysconfig/wellbeing.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/wellbeing.xml \
-    
-# Bootanimation
-include vendor/xtras/prebuilt/bootanimation/bootanimation.mk
-
-# Copy fonts to system
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xtras/fonts,$(TARGET_COPY_OUT_SYSTEM)/fonts)
-
 # Icon shapes
 PRODUCT_PACKAGES += \
-    IconShapeCloudyOverlay \
-    IconShapeCloudyRoundedOverlay \
     IconShapeCylinderOverlay \
-    IconShapeCylinderRoundedOverlay \
-    IconShapeFlowerOverlay \
-    IconShapeFlowerRoundedOverlay \
     IconShapeHeartOverlay \
-    IconShapeHeartRoundedOverlay \
     IconShapeHexagonOverlay \
-    IconShapeLeafRoundedOverlay \
-    IconShapePebbleRoundedOverlay \
     IconShapeLeafOverlay \
     IconShapePebbleOverlay \
     IconShapeRoundedHexagonOverlay \
     IconShapeRoundedRectOverlay \
     IconShapeSquareOverlay \
     IconShapeSquircleOverlay \
-    IconShapeStretchedOverlay \
     IconShapeTaperedRectOverlay \
     IconShapeTeardropOverlay \
-    IconShapeVesselOverlay \
-    RohieIconMeowOverlay \
-    DefaultButSquareOverlay \
-    RiceBallsOverlay
+    IconShapeVesselOverlay
 
 # Navbar
 PRODUCT_PACKAGES += \
@@ -164,6 +152,17 @@ PRODUCT_PACKAGES += \
     InsideSignalOverlay \
     BarsSignalOverlay
 
+# QS Themes
+PRODUCT_PACKAGES += \
+    QSOutline \
+    QSTwoToneAccent \
+    QSShaded \
+    QSCyberPunk \
+    QSNeumorph \
+    QSReflected \
+    QSSurround \
+    QSThin
+
 # Themes
 PRODUCT_PACKAGES += \
     BakedGreenSystemOverlay \
@@ -197,7 +196,7 @@ PRODUCT_PACKAGES += \
     ClockFontKarmaticArcadeOverlay \
     ClockFontLiquidCrystalOverlay \
     ClockFontVG5000Overlay
-    
+
 # Wi-Fi Icons
 PRODUCT_PACKAGES += \
     StrokeWiFiOverlay \
@@ -208,11 +207,14 @@ PRODUCT_PACKAGES += \
     RoundWiFiOverlay \
     InsideWiFiOverlay \
     BarsWiFiOverlay
-
+        
 ifeq ($(EXTRA_UDFPS_ANIMATIONS),true)
 PRODUCT_PACKAGES += \
     UdfpsResources
 endif
+
+# Bootanimation
+include vendor/xtras/prebuilt/bootanimation/bootanimation.mk
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/xtras/prebuilt/product/fonts,$(TARGET_COPY_OUT_PRODUCT)/fonts)

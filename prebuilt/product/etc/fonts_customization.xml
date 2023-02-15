@@ -51,6 +51,20 @@
     </family>
     <alias name="accuratist-regular" to="accuratist" weight="400" />
 
+    <!-- Aclonica -->
+    <family customizationType="new-named-family" name="aclonica">
+        <font weight="300" style="normal">Aclonica.ttf</font>
+    </family>
+    <alias name="aclonica-semi-bold" to="aclonica" weight="600" />
+    <alias name="aclonica-bold" to="aclonica" weight="700" />
+
+    <!-- Amarante -->
+    <family customizationType="new-named-family" name="amarante">
+        <font weight="300" style="normal">Amarante.ttf</font>
+    </family>
+    <alias name="amarante-semi-bold" to="amarante" weight="600" />
+    <alias name="amarante-bold" to="amarante" weight="700" />
+
     <!-- Bariol -->
     <family customizationType="new-named-family" name="bariol">
         <font weight="300" style="normal">Bariol-Regular.ttf</font>
@@ -833,5 +847,28 @@
       <axis tag="wght" stylevalue="700"/>
     </font>
   </family>
+  
+   <!-- Storopia -->
+    <family customizationType="new-named-family" name="storopia">
+        <font weight="400" style="normal">Storopia.ttf</font>
+    </family>
+    <alias name="storopia-medium" to="storopia" weight="500" />
+    <alias name="storopia-semi-bold" to="storopia" weight="600" />
+    <alias name="storopia-bold" to="storopia" weight="700" />
+
+    <!-- Surfer -->
+    <family customizationType="new-named-family" name="surfer">
+        <font weight="300" style="normal">Surfer.ttf</font>
+    </family>
+    <alias name="surfer-semi-bold" to="surfer" weight="600" />
+    <alias name="surfer-bold" to="surfer" weight="700" />
+
+    <!-- Ubuntu -->
+    <family customizationType="new-named-family" name="ubuntu">
+        <font weight="400" style="normal">Ubuntu.ttf</font>
+    </family>
+    <alias name="ubuntu-medium" to="ubuntu" weight="500" />
+    <alias name="ubuntu-semi-bold" to="ubuntu" weight="600" />
+    <alias name="ubuntu-bold" to="ubuntu" weight="700" />
 
 </fonts-modification>
