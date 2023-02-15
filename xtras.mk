@@ -18,58 +18,70 @@ include $(call all-subdir-makefiles,$(LOCAL_PATH))
 PRODUCT_PACKAGE_OVERLAYS += vendor/xtras/overlay/common
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/xtras/overlay/common
 
+# Clock Fonts
+PRODUCT_PACKAGES += \
+    ClockFontAccuratistOverlay \
+    ClockFontApiceOverlay \
+    ClockFontAudimatOverlay \
+    ClockFontBariolOverlay \
+    ClockFontCoconOverlay \
+    ClockFontComfortaaOverlay \
+    ClockFontComicSansOverlay \
+    ClockFontCoolstoryOverlay \
+    ClockFontExotwoOverlay \
+    ClockFontEvolveSansOverlay \
+    ClockFontFluidSansOverlay \
+    ClockFontGoogleSansOverlay \
+    ClockFontGeometosOverlay \
+    ClockFontHarmonySansOverlay \
+    ClockFontJTLeonorOverlay \
+    ClockFontLinotteOverlay \
+    ClockFontMiSansOverlay \
+    ClockFontNokiaPureOverlay \
+    ClockFontNothingDotHeadlineOverlay \
+    ClockFontOneplusSansOverlay \
+    ClockFontOneplusSlateOverlay \
+    ClockFontOppoSansOverlay \
+    ClockFontProductSansVHOverlay \
+    ClockFontRobotoCondensedOverlay \
+    ClockFontRosemaryOverlay \
+    ClockFontRubikOverlay \
+    ClockFontSanFranciscoDisplayProSourceOverlay \
+    ClockFontSamsungOneOverlay \
+    ClockFontSimpleDaySourceOverlay \
+    ClockFontSonySketchOverlay
+    
 # Fonts
 PRODUCT_PACKAGES += \
     fonts_customization.xml \
     FontAccuratistOverlay \
-    FontAclonicaOverlay \
-    FontAmaranteOverlay \
-    FontApiceOverlay \
-    FontAudimatOverlay \
     FontBariolOverlay \
-    FontCagliostroOverlay \
     FontCoconOverlay \
     FontComfortaaOverlay \
     FontComicSansOverlay \
     FontCoolstoryOverlay \
     FontExotwoOverlay \
     FontEvolveSansOverlay \
-    FontEvoSansOverlay \
-    FontFifa2018Overlay \
     FontFluidSansOverlay \
     FontGoogleSansOverlay \
-    FontGoogleSansClockOverlay \
-    FontGeometosOverlay \
-    FontGrandHotelOverlay \
     FontHarmonySansOverlay \
-    FontInterSourceOverlay \
     FontJTLeonorOverlay \
-    FontLatoOverlay \
-    FontLGSmartGothicOverlay \
     FontLinotteOverlay \
     FontMiSansOverlay \
     FontNokiaPureOverlay \
     FontNothiingDotOverlay \
     FontNothingDotHeadlineOverlay \
-    FontNunitoOverlay \
     FontOneplusSansOverlay \
     FontOneplusSlateOverlay \
     FontOppoSansOverlay \
-    FontOswaldOverlay \
     FontProductSansVHOverlay \
-    FontQuandoOverlay \
-    FontRedressedOverlay \
-    FontReemKufiOverlay \
     FontRobotoCondensedOverlay \
     FontRosemaryOverlay \
     FontRubikOverlay \
     FontSanFranciscoDisplayProSourceOverlay \
     FontSamsungOneOverlay \
     FontSimpleDaySourceOverlay \
-    FontSonySketchOverlay \
-    FontStoropiaOverlay \
-    FontSurferOverlay \
-    FontUbuntuOverlay
+    FontSonySketchOverlay
     
 PRODUCT_COPY_FILES += \
     vendor/xtras/prebuilt/product/etc/sysconfig/google.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google.xml \
