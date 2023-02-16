@@ -208,14 +208,18 @@ PRODUCT_PACKAGES += \
 
 # Wi-Fi Icons
 PRODUCT_PACKAGES += \
-    StrokeWiFiOverlay \
-    SneakyWiFiOverlay \
-    XperiaWiFiOverlay \
-    ZigZagWiFiOverlay \
-    WavyWiFiOverlay \
-    RoundWiFiOverlay \
-    InsideWiFiOverlay \
-    BarsWiFiOverlay
+	AcherusWiFiOverlay \
+	BarsWiFiOverlay \
+	DoraWiFiOverlay \
+	InsideWiFiOverlay \
+	OutlineWiFiOverlay \
+	RoundWiFiOverlay \
+	SneakyWiFiOverlay \
+	StrokeWiFiOverlay \
+	WavyWiFiOverlay \
+	WeedWiFiOverlay \
+	XperiaWiFiOverlay \
+	ZigZagWiFiOverlay
         
 ifeq ($(EXTRA_UDFPS_ANIMATIONS),true)
 PRODUCT_PACKAGES += \
