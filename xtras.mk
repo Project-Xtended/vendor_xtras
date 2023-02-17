@@ -230,4 +230,6 @@ endif
 include vendor/xtras/prebuilt/bootanimation/bootanimation.mk
 
 PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,vendor/xtras/prebuilt/product/fonts,$(TARGET_COPY_OUT_PRODUCT)/fonts)
+    $(call find-copy-subdir-files,*,vendor/xtras/prebuilt/product/fonts,$(TARGET_COPY_OUT_PRODUCT)/fonts) \
+    $(call find-copy-subdir-files,*,vendor/xtras/prebuilt/product/fonts,$(TARGET_COPY_OUT_SYSTEM)/fonts)
+
