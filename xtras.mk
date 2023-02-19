@@ -73,6 +73,7 @@ PRODUCT_PACKAGES += \
     FontAclonicaOverlay \
     FontAmaranteOverlay \
     FontBariolOverlay \
+    FontCagliostroSourceOverlay \
     FontCoconOverlay \
     FontComfortaaOverlay \
     FontComicSansOverlay \
