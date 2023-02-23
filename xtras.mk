@@ -120,12 +120,6 @@ PRODUCT_PACKAGES += \
     IconShapeTeardropOverlay \
     IconShapeVesselOverlay
 
-# Navbar
-PRODUCT_PACKAGES += \
-    GesturalNavigationOverlayLong \
-    GesturalNavigationOverlayMedium \
-    GesturalNavigationOverlayHidden
-
 # Prebuilt packages
 PRODUCT_PACKAGES += \
     TurboPrebuilt \
