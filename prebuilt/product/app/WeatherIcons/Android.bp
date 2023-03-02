@@ -1,0 +1,9 @@
+android_app_import {
+    name: "WeatherIcons",
+    apk: "WeatherIcons.apk",
+    certificate: "platform",
+    product_specific: true,
+    dex_preopt: {
+        enabled: false,
+    },
+}

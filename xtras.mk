@@ -123,7 +123,8 @@ PRODUCT_PACKAGES += \
 # Prebuilt packages
 PRODUCT_PACKAGES += \
     TurboPrebuilt \
-    ViaBrowser
+    ViaBrowser \
+    WeatherIcons
     
 # QS Panel
 PRODUCT_PACKAGES += \
