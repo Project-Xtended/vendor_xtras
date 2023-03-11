@@ -189,8 +189,9 @@ PRODUCT_PACKAGES += \
     QSNeumorph \
     QSReflected \
     QSSurround \
-    QSThin
-
+    QSThin \
+    QSTwoToneAccentTrans
+    
 # Themes
 PRODUCT_PACKAGES += \
     BakedGreenSystemOverlay \
