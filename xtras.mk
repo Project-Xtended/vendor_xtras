@@ -122,7 +122,6 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt packages
 PRODUCT_PACKAGES += \
-    TurboPrebuilt \
     ViaBrowser \
     WeatherIcons
     
