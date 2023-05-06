@@ -35,6 +35,8 @@ PRODUCT_COPY_FILES += \
 
 # Brightness slider styles
 PRODUCT_PACKAGES += \
+	BrightnessSliderAcunOverlay \
+    BrightnessSliderBangOverlay \
     BrightnessSliderFilledOverlay \
     BrightnessSliderThinOverlay
 
