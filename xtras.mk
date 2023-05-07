@@ -33,6 +33,11 @@ PRODUCT_COPY_FILES += \
     vendor/xtras/prebuilt/product/etc/sysconfig/pixel_experience_2022_midyear.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2022_midyear.xml \
     vendor/xtras/prebuilt/product/etc/sysconfig/wellbeing.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/wellbeing.xml \
 
+# Brightness slider styles
+PRODUCT_PACKAGES += \
+    BrightnessSliderFilledOverlay \
+    BrightnessSliderThinOverlay
+
 # Clock Fonts
 PRODUCT_PACKAGES += \
     ClockFontAccuratistOverlay \
