@@ -8,8 +8,10 @@
 
     <overlay
         android:priority="1"
-        android:targetPackage="com.android.systemui" />
+        android:targetPackage="com.android.systemui"
+        android:category="android.theme.customization.brightness_slider" />
 
     <application
+        android:label="CyberPunk"
         android:hasCode="false"/>
 </manifest>
