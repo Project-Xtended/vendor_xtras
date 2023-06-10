@@ -143,6 +143,7 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt packages
 PRODUCT_PACKAGES += \
+    MlkitBarcodeUIPrebuilt \
     ViaBrowser \
     WeatherIcons
     

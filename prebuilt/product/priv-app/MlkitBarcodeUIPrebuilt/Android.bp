@@ -1,0 +1,22 @@
+android_app_import {
+	name: "MlkitBarcodeUIPrebuilt",
+	owner: "google",
+	apk: "MlkitBarcodeUIPrebuilt.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+    required: [
+        "privapp_whitelist_com.google.android.apps.mlkit"
+    ],
+}
+
+prebuilt_etc {
+    name: "privapp_whitelist_com.google.android.apps.mlkit",
+    product_specific: true,
+    sub_dir: "permissions",
+    src: "privapp_whitelist_com.google.android.apps.mlkit.xml",
+    filename_from_src: true,
+}
