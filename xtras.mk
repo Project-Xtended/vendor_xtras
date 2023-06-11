@@ -165,9 +165,11 @@ PRODUCT_PACKAGES += \
 	BarsSignalOverlay \
 	DeepSignalOverlay \
 	DoraSignalOverlay \
+    GradiconSignalOverlay \
 	HuaweiSignalOverlay \
 	IosSignalOverlay \
 	InsideSignalOverlay \
+    NothingDotSignalOverlay \
 	OutlineSignalOverlay \
 	PillsSignalOverlay \
 	PUISignalOverlay \
@@ -228,7 +230,9 @@ PRODUCT_PACKAGES += \
 	AcherusWiFiOverlay \
 	BarsWiFiOverlay \
 	DoraWiFiOverlay \
+    GradiconWiFiOverlay \
 	InsideWiFiOverlay \
+    NothingDotWiFiOverlay \
 	OutlineWiFiOverlay \
 	RoundWiFiOverlay \
 	SneakyWiFiOverlay \
